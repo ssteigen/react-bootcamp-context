@@ -21,3 +21,10 @@ export class LanguageProvider extends Component {
         );
     }
 }
+
+// Higher-order component. Takes a component and returns it with additional props.
+export const withLanguageContext = Component => props => (
+    <LanguageContext.Consumer>
+        {context => <Component languageContext={context} {...props} />}
+    </LanguageContext.Consumer>
+)

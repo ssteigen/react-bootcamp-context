@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Avatar } from '@material-ui/core';
 import { Button } from '@material-ui/core';
-import { CssBaseline } from '@material-ui/core';
 import { FormControl } from '@material-ui/core';
 import { FormControlLabel } from '@material-ui/core';
 import { Checkbox } from '@material-ui/core';
