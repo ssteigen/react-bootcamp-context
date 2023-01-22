@@ -8,7 +8,7 @@ import Navbar from './Navbar';
 import { LanguageProvider } from './contexts/LanguageContext';
 import { ThemeProvider } from './contexts/ThemeContext';
 
-function App() {
+export default function App() {
   return (
     <LanguageProvider>
       <ThemeProvider>
@@ -20,5 +20,3 @@ function App() {
     </LanguageProvider>
   );
 }
-
-export default App;
